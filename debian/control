@@ -1,0 +1,27 @@
+Source: node-check-error
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@alioth-lists.debian.net>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , mocha <!nocheck>
+ , node-assertion-error <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-check-error
+Vcs-Git: https://salsa.debian.org/js-team/node-check-error.git
+Homepage: https://github.com/chaijs/check-error
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-check-error
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+ , nodejs
+Description: Node.js module for error handling
+ This module helps to retrieve an Error's information such as its message
+ or constructor name, but also check whether two Errors are compatible based
+ on various data.
+ .
+ Node.js is an event-based server-side JavaScript engine.

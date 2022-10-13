@@ -1,0 +1,45 @@
+node-check-error (1.0.2-4) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump standards-version to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 27 Aug 2021 14:58:44 +0200
+
+node-check-error (1.0.2-3) unstable; urgency=medium
+
+  * Update team mailing list address.
+  * Use my @debian.org mail address.
+  * Mark the package Multi-Arch: foreign following hinter.
+  * Bump dh-compat to 13.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 16 Jul 2020 16:36:52 +0200
+
+node-check-error (1.0.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Update VCS fields to salsa
+  * Use pkg-js-tools auto install
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Enable upstream test using mocha and simple-assert (embedded)
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 03 May 2020 09:34:07 +0200
+
+node-check-error (1.0.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update copyright dates.
+  * Use node instead of nodejs in debian/tests/require.
+  * Uscan is now version 4.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 23 Aug 2017 17:13:20 +0200
+
+node-check-error (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #872552)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 18 Aug 2017 15:05:35 +0200
